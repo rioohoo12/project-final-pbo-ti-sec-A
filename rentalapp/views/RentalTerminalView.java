@@ -392,7 +392,7 @@ public class RentalTerminalView implements RentalView {
                 }
             }
 
-            // Memanggil service untuk menyewa kendaraan
+            // Memanggil rentalapp.service untuk menyewa kendaraan
             if (rentalService.sewaKendaraan(nomor, this.noTelpon, this.date)) {
                 if(isAdmin){
                     System.out.println("Kendaraan berhasil disewa.");
